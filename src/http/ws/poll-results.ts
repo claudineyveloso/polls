@@ -17,6 +17,5 @@ export async function pollResults(app: FastifyInstance) {
         connection.socket.send(JSON.stringify(message));
       });
     },
-    // end
   );
 }
